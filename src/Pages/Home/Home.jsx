@@ -1,11 +1,9 @@
-import Container from "../Shared/Container/Container";
+import Banner from "../../components/Banner";
 
 const Home = () => {
     return (
-        <div className="font-quicksand">
-            <Container>
-            <h2>This is Home</h2>
-        </Container>
+        <div>
+            <Banner></Banner>
         </div>
     );
 };
