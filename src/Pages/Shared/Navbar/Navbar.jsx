@@ -30,12 +30,12 @@ const Navbar = () => {
                   </svg>
                 </label>
               </div>
-              <div className="flex-1 mx-2 md:mx-0 text-4xl font-bold" style={{background: "-webkit-linear-gradient(45deg, #801eb2, #f73d91)","-webkit-background-clip": "text","-webkit-text-fill-color": "transparent"}}>Tech Magnet</div>
+              <div className="flex-1 mx-2 md:mx-0 text-4xl font-bold" style={{background: "-webkit-linear-gradient(45deg, #801eb2, #f73d91)","-webkit-background-clip": "text","-webkit-text-fill-color": "transparent"}}><a href="#">Tech Magnet</a> </div>
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal text-lg font-semibold">
                   {/* Navbar menu content here */}
                   <li>
-                    <a>Home</a>
+                    <a href="#">Home</a>
                   </li>
                   <li>
                     <a>About Us</a>
@@ -82,16 +82,16 @@ const Navbar = () => {
 
             {/* Sidebar content here */}
             <li>
-                    <a>Home</a>
+                    <a href="#">Home</a>
                   </li>
                   <li>
                     <a>About Us</a>
                   </li>
                   <li>
-                    <a>Services</a>
+                    <a href="#services">Services</a>
                   </li>
                   <li>
-                    <a>Contact</a>
+                    <a href="#contact">Contact</a>
                   </li>
           </ul>
         </div>

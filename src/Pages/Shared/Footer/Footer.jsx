@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="md:w-[316px]">
               <p className="text-[18px] font-medium text-white">
                 <h1 className="text-white font-extrabold text-3xl" >
-                    Teach Magnet
+                    Tech Magnet
                 </h1>
               </p>
               <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
@@ -143,7 +143,7 @@ const Footer = () => {
                 <li className="mt-[15px]">
                   <a
                     className="hover:text-pink-500 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/"
+                    href="#"
                   >
                     Home
                   </a>
