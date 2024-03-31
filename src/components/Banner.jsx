@@ -22,7 +22,7 @@ const Banner = () => {
             href="#"
             className="text-white border-2 lg:text-2xl hover:bg-gradient-to-r from-[#f73d91] to-[#801eb2] py-3 px-12 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
           >
-            Get Started
+            Get Now!
           </a>
         </div>
       </div>

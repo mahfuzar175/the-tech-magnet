@@ -1,0 +1,33 @@
+[
+    {
+      "service": "Web Development",
+      "description": "We specialize in creating responsive and user-friendly websites tailored to meet your business needs. Our team of experienced developers utilizes the latest web technologies to deliver high-quality, scalable solutions.",
+      "icon": "web-development-icon.svg"
+    },
+    {
+      "service": "Mobile App Development",
+      "description": "Transform your ideas into innovative mobile applications with our expert app development services. From design to deployment, we ensure seamless user experiences across iOS and Android platforms.",
+      "icon": "mobile-app-development-icon.svg"
+    },
+    {
+      "service": "UI/UX Design",
+      "description": "Elevate your digital presence with our intuitive UI/UX design services. Our creative team crafts visually stunning interfaces that engage users and enhance brand perception.",
+      "icon": "ui-ux-design-icon.svg"
+    },
+    {
+      "service": "E-commerce Solutions",
+      "description": "Boost your online sales and streamline your business operations with our customized e-commerce solutions. We provide end-to-end services, including design, development, and integration of payment gateways.",
+      "icon": "ecommerce-solutions-icon.svg"
+    },
+    {
+      "service": "Digital Marketing",
+      "description": "Drive traffic, generate leads, and increase conversions with our comprehensive digital marketing strategies. From SEO and SEM to social media marketing, we help you achieve your business objectives.",
+      "icon": "digital-marketing-icon.svg"
+    },
+    {
+      "service": "Cloud Solutions",
+      "description": "Leverage the power of the cloud with our scalable and secure cloud solutions. Whether you need infrastructure migration, application development, or data analytics, we have you covered.",
+      "icon": "cloud-solutions-icon.svg"
+    }
+  ]
+  
