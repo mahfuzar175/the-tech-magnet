@@ -150,7 +150,7 @@ const Footer = () => {
                 </li>
                 <li className="mt-[15px]">
                   <a
-                    className="hover:text-pink-500font-inter text-[15px] font-normal hover:font-semibold"
+                    className="hover:text-pink-500 font-inter text-[15px] font-normal hover:font-semibold"
                     href="/our-tutors"
                   >
                     News

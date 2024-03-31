@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Emily Smith",
+      "image": "https://i.ibb.co/FDZH1Br/member3.png",
+      "designation": "Marketing Manager",
+      "review": "Absolutely thrilled with the quality and efficiency of Tech Magnet. Their products have significantly boosted our sales and we will satisfied!",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "David Lee",
+      "image": "https://i.ibb.co/pfXD4rh/member1.png",
+      "designation": "CEO",
+      "review": "Choosing Tech Magnet was a game-changer for my business! Their services have helped us streamline our operations and increase productivity.",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "name": "Sarah Johnson",
+      "image": "https://i.ibb.co/BZKTMdD/member2.png",
+      "designation": "Operations Manager",
+      "review": "Impressed by the professionalism and dedication of Tech Magnet. Their team went above and beyond to ensure our project's success.",
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "image": "https://i.ibb.co/FDZH1Br/member3.png",
+      "designation": "Finance Director",
+      "review": "Highly recommend Tech Magnet for their outstanding service and attention to detail. They've been instrumental in helping us achieve our financial goals.",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Jessica Taylor",
+      "image": "https://i.ibb.co/BZKTMdD/member2.png",
+      "designation": "HR Manager",
+      "review": "The team at Tech Magnet is fantastic! Their solutions have simplified our HR processes and saved us valuable time and resources and and we will satisfied.",
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "name": "Daniel Martinez",
+      "image": "https://i.ibb.co/pfXD4rh/member1.png",
+      "designation": "IT Director",
+      "review": "Exceptional service from start to finish! Tech Magnet exceeded our expectations and delivered top-notch solutions tailored to our IT needs.",
+      "rating": 4.6
+    }
+  ]
+  

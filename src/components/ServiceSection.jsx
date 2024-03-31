@@ -14,7 +14,7 @@ const ServiceSection = () => {
       });
   }, []);
   return (
-    <div className="bg-[#801eb2] text-white py-16 font-quicksand">
+    <div className="bg-[#801eb2] text-white py-24 font-quicksand" id="services">
       <Container>
         <div>
           <h2 className="text-center font-bold text-5xl mb-2">Our Services</h2>
