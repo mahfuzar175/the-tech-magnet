@@ -8,9 +8,8 @@ const IntroductionSction = () => {
       className="py-24 font-quicksand"
       style={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover", // Optional: Adjust to your needs
-        backgroundPosition: "center", // Optional: Adjust to your needs
-        // Add more background properties as needed
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div>
