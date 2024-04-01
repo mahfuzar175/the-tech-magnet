@@ -1,3 +1,4 @@
+import icon from '../../../assets/images/icon/tech.png'
 const Footer = () => {
   return (
     <div>
@@ -6,8 +7,8 @@ const Footer = () => {
           <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
             <div className="md:w-[316px]">
               <p className="text-[18px] font-medium text-white">
-                <h1 className="text-white font-extrabold text-3xl" >
-                    Tech Magnet
+                <h1 className="text-white font-extrabold text-3xl flex justify-start items-center" >
+                    <img className='w-9 mt-1' src={icon} alt="" />Tech Magnet
                 </h1>
               </p>
               <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">

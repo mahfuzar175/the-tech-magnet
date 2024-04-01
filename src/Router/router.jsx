@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
+import Contact from "../Pages/Contact/Contact";
 
 export const router = createBrowserRouter([
     {
@@ -12,7 +13,11 @@ export const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>
-        }
+        },
+        {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
       ]
     },
   ]);

@@ -1,6 +1,25 @@
 import Container from "../Container/Container";
+import icon from "../../../assets/images/icon/tech.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const navLinks = (
+    <>
+      <li>
+        <Link to={"/"}>Home</Link>
+      </li>
+      <li>
+        <Link to={"/about"}>About Us</Link>
+      </li>
+      <li>
+        <Link to={"/services"}>Services</Link>
+      </li>
+      <li>
+        <Link to={"/contact"}>Contact</Link>
+      </li>
+    </>
+  );
+
   return (
     <div>
       <div className="drawer drawer-end font-quicksand bg-white">
@@ -30,22 +49,24 @@ const Navbar = () => {
                   </svg>
                 </label>
               </div>
-              <div className="flex-1 mx-2 md:mx-0 text-4xl font-bold" style={{background: "-webkit-linear-gradient(45deg, #801eb2, #f73d91)","-webkit-background-clip": "text","-webkit-text-fill-color": "transparent"}}><a href="#">Tech Magnet</a> </div>
+              <div
+                className="flex-1 mx-2 md:mx-0 text-4xl font-bold"
+                style={{
+                  background:
+                    "-webkit-linear-gradient(45deg, #801eb2, #f73d91)",
+                  "-webkit-background-clip": "text",
+                  "-webkit-text-fill-color": "transparent",
+                }}
+              >
+                <a href="#" className="flex justify-start items-center">
+                  <img className="w-11" src={icon} alt="" />
+                  <span className="mb-1">Tech Magnet</span>
+                </a>{" "}
+              </div>
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal text-lg font-semibold">
                   {/* Navbar menu content here */}
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a>About Us</a>
-                  </li>
-                  <li>
-                    <a href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
-                  </li>
+                  {navLinks}
                 </ul>
               </div>
             </Container>
@@ -81,18 +102,7 @@ const Navbar = () => {
             </button>
 
             {/* Sidebar content here */}
-            <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a>About Us</a>
-                  </li>
-                  <li>
-                    <a href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
-                  </li>
+            {navLinks}
           </ul>
         </div>
       </div>
