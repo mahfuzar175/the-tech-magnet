@@ -39,7 +39,6 @@ const ServicePage = () => {
 
       <div
         className="bg-[#801eb2] text-white py-24 font-quicksand"
-        id="services"
       >
         <Container>
           <div>

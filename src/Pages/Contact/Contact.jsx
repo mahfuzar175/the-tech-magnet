@@ -25,7 +25,6 @@ const Contact = () => {
       </div>
 
       <div
-        id="contact"
         className="py-28"
         style={{
           backgroundImage: `url(${backgroundImage})`,
