@@ -1,6 +1,7 @@
 import service from "../../assets/images/services/service.jpg";
 import { useEffect, useState } from "react";
 import Container from "../Shared/Container/Container";
+import { Helmet } from "react-helmet-async";
 
 const ServicePage = () => {
   const [services, setServices] = useState([]);
@@ -16,6 +17,9 @@ const ServicePage = () => {
   }, []);
   return (
     <div className="font-quicksand">
+      <Helmet>
+        <title>Tech Magnet | Services</title>
+      </Helmet>
       <div
         className="w-full h-[400px] bg-center bg-cover mt-14"
         style={{ backgroundImage: `url(${service})` }}
@@ -37,9 +41,7 @@ const ServicePage = () => {
         </div>
       </div>
 
-      <div
-        className="bg-[#801eb2] text-white py-24 font-quicksand"
-      >
+      <div className="bg-[#801eb2] text-white py-24 font-quicksand">
         <Container>
           <div>
             <h2 className="text-center font-bold text-5xl mb-2">

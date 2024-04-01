@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import backgroundImage from "../../assets/images/bg/rm380-10.jpg";
 import contact from "../../assets/images/contact/conatctUs.jpg";
 const Contact = () => {
   return (
     <div className="font-quicksand">
+      <Helmet>
+        <title>Tech Magnet | Contact</title>
+      </Helmet>
       <div
         className="w-full h-[400px] bg-center bg-cover mt-12"
         style={{ backgroundImage: `url(${contact})` }}

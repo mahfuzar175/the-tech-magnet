@@ -2,9 +2,13 @@ import img1 from "../../assets/images/about/1.jpg";
 import img2 from "../../assets/images/about/2.jpg";
 import Container from "../Shared/Container/Container";
 import banner from "../../assets/images/about/who-we-are-banner-min.png";
+import { Helmet } from "react-helmet-async";
 const AboutPage = () => {
   return (
     <div className="font-quicksand">
+      <Helmet>
+        <title>Tech Magnet | About Us</title>
+      </Helmet>
       <div
         className="w-full h-[400px] bg-center bg-cover mt-14"
         style={{ backgroundImage: `url(${banner})` }}
