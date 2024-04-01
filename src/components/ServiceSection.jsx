@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import Container from "../Pages/Shared/Container/Container";
+import { BallTriangle } from "react-loader-spinner";
 
 const ServiceSection = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const [services, setServices] = useState([]);
   useEffect(() => {
     fetch("services.json")
@@ -11,8 +13,34 @@ const ServiceSection = () => {
       .then((data) => {
         // console.log(data);
         setServices(data);
+        setIsLoaded(true);
       });
   }, []);
+
+  if (!isLoaded) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <BallTriangle
+          height={100}
+          width={100}
+          radius={5}
+          color="#4fa94d"
+          ariaLabel="ball-triangle-loading"
+          visible={true}
+        />
+      </div>
+    );
+  }
+
+
+
   return (
     <div className="bg-[#801eb2] text-white py-24 font-quicksand" id="services">
       <Container>

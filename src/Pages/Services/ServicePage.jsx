@@ -2,8 +2,10 @@ import service from "../../assets/images/services/service.jpg";
 import { useEffect, useState } from "react";
 import Container from "../Shared/Container/Container";
 import { Helmet } from "react-helmet-async";
+import { BallTriangle } from "react-loader-spinner";
 
 const ServicePage = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const [services, setServices] = useState([]);
   useEffect(() => {
     fetch("services.json")
@@ -13,8 +15,33 @@ const ServicePage = () => {
       .then((data) => {
         // console.log(data);
         setServices(data);
+        setIsLoaded(true);
       });
   }, []);
+
+  if (!isLoaded) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <BallTriangle
+          height={100}
+          width={100}
+          radius={5}
+          color="#4fa94d"
+          ariaLabel="ball-triangle-loading"
+          visible={true}
+        />
+      </div>
+    );
+  }
+
+
   return (
     <div className="font-quicksand">
       <Helmet>

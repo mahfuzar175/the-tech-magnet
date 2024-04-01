@@ -3,8 +3,10 @@ import Container from "../Pages/Shared/Container/Container";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { BallTriangle } from "react-loader-spinner";
 
 const WhyChooseUs = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
@@ -15,8 +17,32 @@ const WhyChooseUs = () => {
       .then((data) => {
         console.log(data);
         setReviews(data);
+        setIsLoaded(true);
       });
   }, []);
+
+
+  if (!isLoaded) {
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <BallTriangle
+          height={100}
+          width={100}
+          radius={5}
+          color="#4fa94d"
+          ariaLabel="ball-triangle-loading"
+          visible={true}
+        />
+      </div>
+    );
+  }
 
   const renderStars = (rating) => {
     const stars = [];
