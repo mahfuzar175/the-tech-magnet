@@ -1,4 +1,11 @@
 import icon from '../../../assets/images/icon/tech.png'
+import goolge from '../../../assets/images/AppStore/google.png'
+import apple from '../../../assets/images/AppStore/apple.png'
+import facebook from '../../../assets/images/Social/facebook.png'
+import linkedin from '../../../assets/images/Social/linkedin.png'
+import instagram from '../../../assets/images/Social/instagram.png'
+import twitter from '../../../assets/images/Social/twitter.png'
+import youtube from '../../../assets/images/Social/youtube.png'
 const Footer = () => {
   return (
     <div>
@@ -15,52 +22,52 @@ const Footer = () => {
               At Teach Magnet, we believe in driving progress through technology. Thank you for joining us on this exciting journey towards a smarter tomorrow.
               </p>
               <div className="mt-[18px] flex gap-4">
-                <a className="hover:scale-110" target="_blank" href="#">
+                <a className="hover:scale-110" target="_blank" href="https://www.facebook.com/">
                   <img
                     alt="facebook icon"
                     loading="lazy"
-                    width="36"
-                    height="36"
+                    width="30"
+                    height="30"
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/facebook.svg"
+                    src={facebook}
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="/">
+                <a className="hover:scale-110" target="_blank" href="https://www.linkedin.com/">
                   <img
                     alt="linkdin icon"
                     loading="lazy"
-                    width="36"
-                    height="36"
+                    width="30"
+                    height="30"
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/linkdin.svg"
+                    src={linkedin}
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="/">
+                <a className="hover:scale-110" target="_blank" href="https://www.instagram.com/">
                   <img
                     alt="instagram icon"
                     loading="lazy"
-                    width="36"
-                    height="36"
+                    width="30"
+                    height="30"
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/instagram1.svg"
+                    src={instagram}
                   />
                 </a>
-                <a className="hover:scale-110" target="_blank" href="">
+                <a className="hover:scale-110" target="_blank" href="https://twitter.com/">
                   <img
                     alt="twitter icon"
                     loading="lazy"
-                    width="36"
-                    height="36"
+                    width="30"
+                    height="30"
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/twitter.svg"
+                    src={twitter}
                   />
                 </a>
                 <a
@@ -71,12 +78,12 @@ const Footer = () => {
                   <img
                     alt="youtube icon"
                     loading="lazy"
-                    width="36"
-                    height="36"
+                    width="30"
+                    height="30"
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/youtube.svg"
+                    src={youtube}
                   />
                 </a>
               </div>
@@ -196,7 +203,7 @@ const Footer = () => {
                 Download the app
               </p>
               <div className="flex gap-4 sm:flex-col">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://play.google.com/">
                   <img
                     alt="facebook icon"
                     loading="lazy"
@@ -205,10 +212,10 @@ const Footer = () => {
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/google-store.svg"
+                    src={goolge}
                   />
                 </a>
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://www.apple.com/app-store/">
                   <img
                     alt="facebook icon"
                     loading="lazy"
@@ -217,7 +224,7 @@ const Footer = () => {
                     decoding="async"
                     data-nimg="1"
                     style={{ color: "transparent" }}
-                    src="https://www.englishyaari.com/img/apple-store.svg"
+                    src={apple}
                   />
                 </a>
               </div>
