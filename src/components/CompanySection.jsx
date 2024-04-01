@@ -21,7 +21,7 @@ const CompanySection = () => {
   };
 
   return (
-    <div className=" py-24 font-quicksand">
+    <div className=" py-16 mb-7 font-quicksand">
       <Container>
         <div className="space-y-4">
           <h2 className="text-center font-bold text-5xl mb-2">

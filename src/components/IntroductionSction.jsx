@@ -19,7 +19,7 @@ const IntroductionSction = () => {
             <h2 className="font-bold lg:text-4xl md:text-3xl text-2xl ">
               WELCOME TO TECH MAGNET
             </h2>
-            <p>
+            <p className="text-gray-600">
               Tech Magnet stands as a beacon of innovation in the ever-expanding
               landscape of technology companies. At the forefront of
               technological advancement, we are more than just a company; we are
