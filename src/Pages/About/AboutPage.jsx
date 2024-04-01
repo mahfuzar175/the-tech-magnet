@@ -32,10 +32,10 @@ const AboutPage = () => {
           <div className="pb-10">
             <div className="container mx-auto px-4">
               <div className="flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 justify-between items-center">
-                <div className="md:w-1/2">
+                <div className="lg:w-1/2">
                   <img className="rounded-lg" src={img1} alt="" />
                 </div>
-                <div className="md:w-1/2 lg:mb-16">
+                <div className="lg:w-1/2 lg:mb-16">
                   <h4 className="my-4 lg:my-8 text-xl md:text-2xl font-bold">
                     Our Vision
                   </h4>
@@ -62,7 +62,7 @@ const AboutPage = () => {
           <div className="mt-20 mb-10">
             <div className="container mx-auto px-4">
               <div className="flex flex-col-reverse  lg:flex-row-reverse gap-10 lg:gap-16 justify-between items-center">
-                <div className="md:w-1/2">
+                <div className="lg:w-1/2">
                   <h4 className="mb-4 lg:mb-8 text-xl md:text-2xl font-bold">
                     Why Choose Tech Magnet?
                   </h4>
@@ -81,7 +81,7 @@ const AboutPage = () => {
                     everything you need to thrive in today's competitive market.
                   </p>
                 </div>
-                <div className="md:w-1/2">
+                <div className="lg:w-1/2">
                   <img className="rounded-lg" src={img2} alt="" />
                 </div>
               </div>
